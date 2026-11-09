@@ -1,36 +1,38 @@
 # Hi, I'm ledrodh
 
-Python Developer focused on backend engineering, reliable systems, document processing and automation.
+**Python Developer | Backend Engineering | Document Intelligence**
 
-## About Me
-
-- Focused on Python and software engineering.
-- Interested in backend architecture and system reliability.
-- Building tools that solve practical engineering problems.
-- Interested in automation, data processing and AI-assisted workflows.
-
-## Tech Stack
-
-- Python
-- FastAPI
-- SQLAlchemy
-- PostgreSQL
-- Git
-- Docker
-- OCR / Document Processing
+I build software focused on reliable backend systems, data integrity, and practical automation. My work ranges from transactional APIs to complex document-processing pipelines, with an emphasis on software architecture, maintainability, and automated testing.
 
 ## Featured Projects
 
-### Lume
-Intelligent document processing pipeline for converting complex scanned academic documents into structured EPUBs.
+### [StockFlow API](https://github.com/ledrodh/stockflow-api)
 
-### StockFlow API
-Backend system focused on inventory management, transactional integrity and reliable API architecture.
+A transactional inventory and order management system built with Python, FastAPI, and PostgreSQL.
+
+The project focuses on data integrity and reliable transaction processing, implementing database-backed idempotency, pessimistic concurrency control, an immutable inventory ledger, and snapshot-consistent reconciliation.
+
+**Technologies:** Python, FastAPI, SQLAlchemy, PostgreSQL, Alembic, Pytest, Docker, React, TypeScript.
+
+### [Lume](https://github.com/ledrodh/Lume)
+
+An intelligent document-processing pipeline designed to convert complex scanned PDFs into structured EPUBs.
+
+It combines OCR, document layout analysis, HTML processing, and EPUB generation to preserve document structure and improve the digital reading experience.
+
+**Technologies:** Python, OCR, PDF Processing, Pandoc, EPUB 3, Document Intelligence.
+
+## Technical Focus
+
+- **Backend Engineering:** Python, FastAPI, SQLAlchemy, PostgreSQL.
+- **Software Quality:** Pytest, Ruff, Mypy, GitHub Actions.
+- **Document Processing:** OCR, PDF Processing, Pandoc, EPUB.
+- **Frontend & Tooling:** React, TypeScript, Vite, Docker.
 
 ## Areas of Interest
 
-- Backend Engineering
-- Software Architecture
-- Automation
-- Document Intelligence
+- Backend Architecture and System Reliability
+- Database Design and Transactional Integrity
+- Concurrency Control and Data Consistency
 - Software Testing and Quality Assurance
+- Document Intelligence and Automation
